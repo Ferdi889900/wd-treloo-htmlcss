@@ -9,37 +9,38 @@
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  
+  <!-- SECTION 1: Header & Hero -->
   <header>
-    <div class="navbar">
-  <h1 class="logo">Treloo</h1>
-  <nav>
-    <ul>
-      <li><a href="#">Review</a></li>
-      <li><a href="#">Tips</a></li>
-      <li><a href="#">Alerts</a></li>
-      <li><a href="#" class="blog-button">Blog</a></li>
-    </ul>
-  </nav>
-</div>
+    <div class="logo">Treloo</div>
+    <nav>
+      <ul>
+        <li><a href="#">Review</a></li>
+        <li><a href="#">Tips</a></li>
+        <li><a href="#">Alerts</a></li>
+        <li><a href="#" class="blog-btn">Blog</a></li>
+      </ul>
+    </nav>
+    <!-- TODO: Tambahkan logo, menu navigasi, dan tombol Blog -->
   </header>
 
   <section class="hero">
-    <div class="hero-content" style="background-image: url('img/mountains.jpg');">
-  <h2>Discover Your Life, Travel Where You Want</h2>
-  <p>Mulai petualangan seru dengan destinasi impianmu bersama Treloo.</p>
-  <form class="booking-form">
-    <div class="switcher">
-      <button type="button">Flight</button>
-      <button type="button">Hotel</button>
+    <div class="hero-content">
+      <h1>Discover Your Life, Travel Where You Want</h1>
+      <p>Temukan pengalaman tak terlupakan di setiap perjalanan Anda.</p>
+      <form class="booking-form">
+        <div class="switcher">
+          <label><input type="radio" name="type" checked> Flight</label>
+          <label><input type="radio" name="type"> Hotel</label>
+        </div>
+        <input type="text" placeholder="From">
+        <input type="text" placeholder="To">
+        <input type="date">
+        <input type="date">
+        <button type="submit">Search</button>
+      </form>
     </div>
-    <input type="text" placeholder="Asal" />
-    <input type="text" placeholder="Tujuan" />
-    <input type="date" placeholder="Berangkat" />
-    <input type="date" placeholder="Pulang" />
-    <button type="submit">Cari</button>
-  </form>
-</div>
+    <!-- TODO: Tambahkan heading, subheading, background image -->
+    <!-- TODO: Tambahkan form pencarian (Flight/Hotel, input lokasi & tanggal) -->
   </section>
 
   <!-- SECTION 2: Recommended Destination -->
